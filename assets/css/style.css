@@ -275,6 +275,9 @@ footer {
     .content-category {
         margin-bottom: 20px;
     }
+    #blog .content-item {
+        margin-bottom: 0px;
+    }
     footer {
         padding: 80px 40px;
     }
