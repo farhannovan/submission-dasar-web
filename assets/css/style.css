@@ -232,12 +232,6 @@ aside h3 {
     font-size: 20px;
 }
 
-
-/* aside h3 {
-    width: calc((100% - var(--column-spacing) * 1) * 0.25);
-    font-size: 20px;
-} */
-
 hr {
     border-top: 1px solid #333;
 }
@@ -311,6 +305,9 @@ footer {
     }
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+    .jumbotron-title {
+        font-size: 36px;
     }
     .content-pic {
         height: 370px;
