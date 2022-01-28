@@ -155,9 +155,15 @@ nav .nav-menu {
     list-style-position: outside;
 }
 
+#about li {
+    padding: 4px 0px;
+}
+
 #about figure img {
-    padding-bottom: 24px;
-    max-width: 120px;
+    margin-bottom: 8px;
+    max-width: 125px;
+    max-height: 125px;
+    border-radius: 50%;
 }
 
 .content {
