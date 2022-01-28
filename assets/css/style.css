@@ -179,6 +179,10 @@ nav .nav-menu {
     margin-bottom: 80px;
 }
 
+#blog .content-item {
+    margin-bottom: 40px;
+}
+
 .content-title {
     display: inline-block;
     padding: 10px 0 0;
