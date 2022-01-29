@@ -147,6 +147,7 @@ nav .nav-menu {
 #about ul {
     list-style: none;
     list-style-position: outside;
+    padding: 8px 0;
 }
 
 #about ul li:before {
@@ -240,6 +241,19 @@ article h3,
 aside h3 {
     width: calc((100% - var(--column-spacing) * 1) * 0.25);
     font-size: 20px;
+}
+
+aside a {
+    padding-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+    color: var(--color-text-secondary);
+    transition: var(--transition);
+}
+
+aside a:hover {
+    color: var(--color-primary);
 }
 
 hr {
