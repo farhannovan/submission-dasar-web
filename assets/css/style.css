@@ -64,7 +64,7 @@ nav {
 }
 
 nav h1 {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 nav li {
@@ -92,7 +92,7 @@ nav .nav-menu {
     transition: background 0.3s ease;
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .nav-menu .nav-item a:hover {
@@ -131,7 +131,7 @@ nav .nav-menu {
 }
 
 .jumbotron-title {
-    font-size: 56px;
+    font-size: 3.5rem;
     padding-bottom: 60px;
 }
 
@@ -188,7 +188,7 @@ nav .nav-menu {
     display: inline-block;
     padding: 10px 0 0;
     transition: color 0.2s;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .content-proprety {
@@ -198,7 +198,7 @@ nav .nav-menu {
 
 .content-category {
     width: calc((100% - var(--column-spacing) * 1) * 0.25);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: bold;
     line-height: 16px;
     text-transform: uppercase;
@@ -208,7 +208,7 @@ nav .nav-menu {
 
 .content-date {
     padding-right: 16px;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: bold;
     line-height: 16px;
     text-transform: uppercase;
@@ -240,7 +240,7 @@ nav .nav-menu {
 article h3,
 aside h3 {
     width: calc((100% - var(--column-spacing) * 1) * 0.25);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 aside a {
@@ -334,7 +334,7 @@ footer {
         transform: translateY(-8px) rotate(-45deg);
     }
     .jumbotron-title {
-        font-size: 36px;
+        font-size: 2rem;
     }
     .content-pic {
         height: 370px;
@@ -351,7 +351,7 @@ footer {
         margin-bottom: 24px;
     }
     #blog .content-title {
-        font-size: 16px;
+        font-size: 1rem;
     }
     .content {
         width: auto;
