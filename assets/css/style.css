@@ -132,6 +132,7 @@ nav .nav-menu {
 
 .jumbotron-title {
     font-size: 3.5rem;
+    letter-spacing: -0.022em;
     padding-bottom: 60px;
 }
 
@@ -189,6 +190,7 @@ nav .nav-menu {
     padding: 10px 0 0;
     transition: color 0.2s;
     font-size: 1.125rem;
+    letter-spacing: -0.014em;
 }
 
 .content-proprety {
@@ -241,6 +243,7 @@ article h3,
 aside h3 {
     width: calc((100% - var(--column-spacing) * 1) * 0.25);
     font-size: 1.25rem;
+    letter-spacing: -0.017em;
 }
 
 aside a {
