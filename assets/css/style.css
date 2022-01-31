@@ -43,6 +43,8 @@ aside {
 }
 
 a {
+    outline: none;
+    border: 0;
     text-decoration: none;
 }
 
@@ -161,7 +163,7 @@ nav .nav-menu {
     padding: 4px 0px;
 }
 
-#about figure img {
+#about img.profile-pic {
     margin-bottom: 8px;
     max-width: 125px;
     max-height: 125px;
@@ -178,9 +180,9 @@ nav .nav-menu {
     display: flex;
     flex-direction: column;
     flex: 0 0 42%;
-    margin-bottom: 80px;
 }
 
+#project .content-item,
 #blog .content-item {
     margin-bottom: 40px;
 }
@@ -239,6 +241,11 @@ nav .nav-menu {
     color: var(--color-primary);
 }
 
+.social-media {
+    display: flex;
+    gap: 8px;
+}
+
 article h3,
 aside h3 {
     width: calc((100% - var(--column-spacing) * 1) * 0.25);
@@ -246,17 +253,20 @@ aside h3 {
     letter-spacing: -0.017em;
 }
 
-aside a {
-    padding-bottom: 2px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    width: fit-content;
-    color: var(--color-text-secondary);
-    transition: var(--transition);
+aside svg {
+    width: 36px;
+    height: 36px;
 }
 
-aside a:hover {
-    color: var(--color-primary);
+a svg #github,
+a svg #linkedin {
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+a svg:hover #github,
+a svg:hover #linkedin {
+    fill: var(--color-primary);
 }
 
 hr {
@@ -268,7 +278,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 80px 20px;
+    padding: 40px 20px;
     margin: 0 auto;
 }
 
