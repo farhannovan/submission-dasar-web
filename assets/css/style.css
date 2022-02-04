@@ -142,7 +142,7 @@ nav .nav-menu {
 	padding: 0;
 }
 
-#about .content h4 {
+#about .content h3 {
 	font-weight: 600;
 	color: var(--color-primary);
 }
