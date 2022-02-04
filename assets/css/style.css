@@ -246,8 +246,8 @@ nav .nav-menu {
 	gap: 8px;
 }
 
-article h3,
-aside h3 {
+article h2,
+aside h2 {
 	width: calc((100% - var(--column-spacing) * 1) * 0.25);
 	font-size: 1.25rem;
 	letter-spacing: -0.017em;
@@ -358,8 +358,8 @@ footer {
 	aside {
 		flex-direction: column;
 	}
-	article h3,
-	aside h3 {
+	article h2,
+	aside h2 {
 		width: 100%;
 		margin-bottom: 24px;
 	}
